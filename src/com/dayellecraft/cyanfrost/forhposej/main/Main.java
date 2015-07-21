@@ -7,6 +7,7 @@ public class Main extends JavaPlugin{
 
 	public void onEnable(){ //Called when the plugin is enabled.
 		Bukkit.getPluginManager().registerEvents(new Listeners(), this); //Register Listener in the PluginManager
+		Bukkit.getPluginManager().registerEvents(new MoreListeners(), this);
 	}
 	
 	public void onDisable(){ //Called when the plugin is disabled.
